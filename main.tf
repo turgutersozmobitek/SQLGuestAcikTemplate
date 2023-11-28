@@ -15,7 +15,7 @@ resource "vcd_vapp_vm" "web1" {
 
 
     override_template_disk {
-    bus_type        = "paravirtual"
+    bus_type        = "sas"
     size_in_mb      = "102400"
     bus_number      = 0
     unit_number     = 0
